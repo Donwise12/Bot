@@ -1,18 +1,2 @@
-[tool.poetry]
-name = "donwisebot"
-version = "0.1.0"
-description = "Telegram Forex Signal Bot"
-authors = ["Donwise"]
-
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
-telethon = "1.32.0"
-aiohttp = "3.8.6"
-pytz = "2024.1"
-requests = "2.31.0"
-flask = "2.3.3"
-Pillow = "10.2.0"
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
